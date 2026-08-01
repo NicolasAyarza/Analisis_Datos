@@ -1,4 +1,5 @@
-# Analisis_Datos# 🐍 30 Días de Preparación — Data Analyst Junior
+
+# 🐍 30 Días de Preparación — Data Analyst Junior
 
 Bitácora pública de mi plan de estudio de 30 días para prepararme como analista de datos junior. 
 Documento aquí el progreso diario: teoría, práctica y entregables.

@@ -31,3 +31,12 @@ analista de datos junior.
 - **Repaso:** 10 ejercicios cortos de manipulación de arrays (Kaggle/Exercism).
 - **Recurso:** [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html) (docs oficiales) + Kaggle "Intro to Programming"
 - **Entregable:** ✅ Notebook [`01_numpy_basics.ipynb`](./01_numpy_basics.ipynb) subido a GitHub.
+
+### Día 3 — Pandas: Series y DataFrame
+**Objetivo:** Cargar y explorar datos tabulares con Pandas.
+
+- **Teoría:** Series vs DataFrame, lectura de CSV/Excel, exploración con `head()`, `info()`, `describe()`.
+- **Práctica:** Selección e indexado (`loc`, `iloc`), filtros booleanos, ordenamiento.
+- **Repaso:** Práctica con un dataset público explorando su estructura.
+- **Recurso:** [Kaggle Learn – "Pandas"](https://www.kaggle.com/learn/pandas) (curso gratis, ~4h)
+- **Entregable:** ✅ Notebook [`02_pandas_intro.ipynb`](./02_pandas_intro.ipynb) subido a GitHub.

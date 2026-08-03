@@ -50,14 +50,25 @@ analista de datos junior.
 - **Recurso:** [Kaggle Learn – "Data Cleaning"](https://www.kaggle.com/learn/data-cleaning) (curso gratis)
 - **Entregable:** ✅ Notebook [`03_data_cleaning.ipynb`](./03_data_cleaning.ipynb) con dataset limpio exportado a CSV.
 
-## 📦 Datasets utilizados
+## 📦 Datasets utilizados en 03_data_cleaning.ipynb
 
 Por su tamaño, los datasets no están incluidos en este repositorio.
 
-**Dataset original:**
-1. Descarga "NFL Play by Play 2009-2016 (v3)" desde Kaggle: 
-   https://www.kaggle.com/datasets/maxhorowitz/nflplaybyplay2009to2016
+**NFL Play by Play 2009-2016 (v3):**
+1. Descarga desde Kaggle: https://www.kaggle.com/datasets/maxhorowitz/nflplaybyplay2009to2016
 2. Colócalo en `data/data_cleaning/NFL Play by Play 2009-2016 (v3).csv`
+
+**Landslides catalog (catalog.csv):**
+1. Descarga desde el notebook de Kaggle: https://www.kaggle.com/code/alexisbcook/parsing-dates/data
+2. Colócalo en `data/data_cleaning/catalog.csv`
+
+**Kickstarter Projects (ks-projects-201612.csv):**
+1. Descarga desde el notebook de Kaggle: https://www.kaggle.com/code/alexisbcook/character-encodings/data
+2. Colócalo en `data/data_cleaning/ks-projects-201612.csv`
+
+**Pakistan Intellectual Capital (pakistan_intellectual_capital.csv):**
+1. Descarga desde el notebook de Kaggle: https://www.kaggle.com/code/alexisbcook/inconsistent-data-entry/data
+2. Colócalo en `data/data_cleaning/pakistan_intellectual_capital.csv`
 
 **Dataset limpio:**
 Se genera automáticamente al ejecutar `03_data_cleaning.ipynb` de principio a fin — 

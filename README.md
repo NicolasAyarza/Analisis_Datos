@@ -40,3 +40,12 @@ analista de datos junior.
 - **Repaso:** Práctica con un dataset público explorando su estructura.
 - **Recurso:** [Kaggle Learn – "Pandas"](https://www.kaggle.com/learn/pandas) (curso gratis, ~4h)
 - **Entregable:** ✅ Notebook [`02_pandas_intro.ipynb`](./02_pandas_intro.ipynb) subido a GitHub.
+
+### Día 4 — Limpieza de datos con Pandas
+**Objetivo:** Dejar un dataset listo para análisis.
+
+- **Teoría:** Valores nulos (`isnull`, `fillna`, `dropna`), duplicados, corrección de tipos de datos.
+- **Práctica:** Normalización de texto, manejo de outliers, creación de columnas derivadas.
+- **Repaso:** Limpieza completa aplicada a un dataset con errores reales (NFL Play by Play 2009-2016).
+- **Recurso:** [Kaggle Learn – "Data Cleaning"](https://www.kaggle.com/learn/data-cleaning) (curso gratis)
+- **Entregable:** ✅ Notebook [`03_data_cleaning.ipynb`](./03_data_cleaning.ipynb) con dataset limpio exportado a CSV.

@@ -12,6 +12,8 @@ analista de datos junior.
 
 ---
 
+**Por su tamaño, los datasets no están incluidos en este repositorio.**
+
 ## 📅 Progreso diario
 
 ### Día 1 — Configuración y repaso de Python
@@ -52,8 +54,6 @@ analista de datos junior.
 
 ## 📦 Datasets utilizados en 03_data_cleaning.ipynb
 
-Por su tamaño, los datasets no están incluidos en este repositorio.
-
 **NFL Play by Play 2009-2016 (v3):**
 1. Descarga desde Kaggle: https://www.kaggle.com/datasets/maxhorowitz/nflplaybyplay2009to2016
 2. Colócalo en `data/data_cleaning/NFL Play by Play 2009-2016 (v3).csv`
@@ -73,3 +73,18 @@ Por su tamaño, los datasets no están incluidos en este repositorio.
 **Dataset limpio:**
 Se genera automáticamente al ejecutar `03_data_cleaning.ipynb` de principio a fin — 
 no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_clean.csv`.
+
+### Día 5 — Transformación: groupby, pivot, merge
+**Objetivo:** Combinar y resumir datos como en un caso de negocio real.
+
+- **Teoría:** `groupby()` con agregaciones múltiples, `pivot_table()`.
+- **Práctica:** `merge()`/`join()` de múltiples tablas (simular relación tipo base de datos).
+- **Repaso:** Respuesta a 5 preguntas de negocio sobre un dataset (ej. "¿qué categoría vende más por región?").
+- **Recurso:** [Real Python – "Pandas GroupBy"](https://realpython.com/pandas-groupby/) (artículo gratis)
+- **Entregable:** ✅ Notebook [`04_groupby_merge.ipynb`](./04_groupby_merge.ipynb) con 5 respuestas documentadas.
+
+## 📦 Datasets utilizados en 04_groupby_merge.ipynb
+
+**Datasets del tutorial "Pandas GroupBy" (Real Python):**
+1. Se descargan directamente desde el artículo: https://realpython.com/pandas-groupby/
+2. Colócalos en `data/data_groupby/`

@@ -88,3 +88,11 @@ no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_cle
 **Datasets del tutorial "Pandas GroupBy" (Real Python):**
 1. Se descargan directamente desde el artículo: https://realpython.com/pandas-groupby/
 2. Colócalos en `data/data_groupby/`
+
+### Día 6 — Visualización: Matplotlib y Seaborn
+**Objetivo:** Comunicar hallazgos con gráficos claros.
+
+- **Teoría:** Matplotlib: line, bar, histograma, scatter — anatomía de una figura.
+- **Práctica:** Seaborn: boxplot, heatmap de correlación, pairplot. Buenas prácticas de diseño (títulos, etiquetas, colores).
+- **Recurso:** [Data Visualization with Seaborn - Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-with-python-seaborn/) [Data Visualization using Matplotlib in Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-using-matplotlib/) (artículo gratis)
+- **Entregable:** ✅ Notebook [`05_visualizacion.ipynb`](./05_visualizacion.ipynb) con más de 20 gráficos.

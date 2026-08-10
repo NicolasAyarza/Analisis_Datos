@@ -14,6 +14,8 @@ analista de datos junior.
 
 **Por su tamaño, los datasets no están incluidos en este repositorio.**
 
+## Pandas EDA
+
 ## 📅 Progreso diario
 
 ### Día 1 — Configuración y repaso de Python

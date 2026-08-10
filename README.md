@@ -1,7 +1,7 @@
 
-# 🐍 30 Días de Preparación — Data Analyst Junior
+# 🐍 Preparación — Data Analyst Junior
 
-Bitácora pública de mi plan de estudio de 30 días para prepararme como analista de datos junior. 
+Bitácora pública de mi plan de estudio para prepararme como analista de datos junior. 
 Documento aquí el progreso diario: teoría, práctica y entregables.
 
 ## Objetivo del plan
@@ -52,7 +52,7 @@ analista de datos junior.
 - **Recurso:** [Kaggle Learn – "Data Cleaning"](https://www.kaggle.com/learn/data-cleaning) (curso gratis)
 - **Entregable:** ✅ Notebook [`03_data_cleaning.ipynb`](./03_data_cleaning.ipynb) con dataset limpio exportado a CSV.
 
-## 📦 Datasets utilizados en 03_data_cleaning.ipynb
+#### 📦 Datasets utilizados en 03_data_cleaning.ipynb
 
 **NFL Play by Play 2009-2016 (v3):**
 1. Descarga desde Kaggle: https://www.kaggle.com/datasets/maxhorowitz/nflplaybyplay2009to2016
@@ -96,3 +96,49 @@ no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_cle
 - **Práctica:** Seaborn: boxplot, heatmap de correlación, pairplot. Buenas prácticas de diseño (títulos, etiquetas, colores).
 - **Recurso:** [Data Visualization with Seaborn - Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-with-python-seaborn/) [Data Visualization using Matplotlib in Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-using-matplotlib/) (artículo gratis)
 - **Entregable:** ✅ Notebook [`05_visualizacion.ipynb`](./05_visualizacion.ipynb) con más de 20 gráficos.
+
+### Dia 7📊 Proyecto 1 — EDA de Ventas Retail
+
+Análisis exploratorio de datos (EDA) completo sobre un dataset de ventas de una 
+tienda retail, desarrollado como cierre de la primera semana de mi plan de 
+preparación como analista de datos junior.
+
+#### Objetivo
+
+Responder preguntas de negocio reales a partir de datos de transacciones de venta, 
+aplicando el flujo completo de un análisis exploratorio: limpieza, análisis, 
+visualización y conclusiones accionables.
+
+#### Dataset
+
+[Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) 
+(Kaggle) — 1000 transacciones con las siguientes columnas: Transaction ID, Date, 
+Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, Total Amount.
+
+#### Preguntas de negocio respondidas
+
+1. ¿Existen patrones identificables en las ventas a lo largo de distintos períodos de tiempo?
+2. ¿Qué categorías de producto tienen mayor atractivo entre los clientes?
+3. ¿Cuáles son las relaciones entre edad, gasto y preferencias de producto?
+
+#### Proceso
+
+- **Limpieza:** revisión de valores nulos, duplicados y consistencia de columnas categóricas; conversión de la columna de fecha a tipo `datetime`.
+- **Análisis:** agrupaciones por estación/mes, categoría de producto, género y rango de edad, usando `groupby()` y `pivot_table()`.
+- **Visualización:** gráficos de barras, countplots con etiquetas de valor, y heatmap de correlación edad-categoría-gasto.
+
+#### Principales hallazgos
+
+- Las ventas muestran estacionalidad, con invierno como la temporada de mayor gasto promedio.
+- Clothing es la categoría más atractiva en volumen general; Beauty tiene mayor preferencia entre clientas mujeres.
+- El gasto promedio disminuye con la edad, y las preferencias de categoría cambian claramente entre clientes jóvenes (Beauty/Clothing) y mayores (Electronics).
+
+Conclusiones completas y recomendaciones de negocio disponibles al final del notebook.
+
+#### Herramientas utilizadas
+
+Python · Pandas · NumPy · Matplotlib · Seaborn
+
+#### Archivo principal
+
+[`06_Proyecto_EDA.ipynb`](./06_Proyecto_EDA.ipynb)

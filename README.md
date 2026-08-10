@@ -144,3 +144,5 @@ Python · Pandas · NumPy · Matplotlib · Seaborn
 #### Archivo principal
 
 [`06_Proyecto_EDA.ipynb`](./06_Proyecto_EDA.ipynb)
+
+## SQL

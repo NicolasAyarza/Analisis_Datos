@@ -16,9 +16,9 @@ analista de datos junior.
 
 ## Pandas EDA
 
-## 📅 Progreso diario
+### 📅 Progreso diario
 
-### Día 1 — Configuración y repaso de Python
+#### Día 1 — Configuración y repaso de Python
 **Objetivo:** Dejar el entorno listo y repasar bases del lenguaje.
 
 - **Teoría:** Instalación y verificación de Python, VS Code y Jupyter. Creación de entorno virtual. Cuenta y repositorio inicial en GitHub.
@@ -27,7 +27,7 @@ analista de datos junior.
 - **Recurso:** [Curso COMPLETO de Python DESDE CERO para Principiantes 2025](https://github.com/midudev/curso-python)(https://www.youtube.com/watch?v=TkN2i-_4N4g&pp=ygUGcHl0aG9u) (YouTube, gratuito)
 - **Entregable:** ✅ Repositorio de GitHub creado con README inicial.
 
-### Día 2 — NumPy: arrays y operaciones vectorizadas
+#### Día 2 — NumPy: arrays y operaciones vectorizadas
 **Objetivo:** Manejar arrays de NumPy como base de todo análisis numérico.
 
 - **Teoría:** Creación de arrays, indexing, slicing y broadcasting.
@@ -36,7 +36,7 @@ analista de datos junior.
 - **Recurso:** [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html) (docs oficiales) + Kaggle "Intro to Programming"
 - **Entregable:** ✅ Notebook [`01_numpy_basics.ipynb`](./01_numpy_basics.ipynb) subido a GitHub.
 
-### Día 3 — Pandas: Series y DataFrame
+#### Día 3 — Pandas: Series y DataFrame
 **Objetivo:** Cargar y explorar datos tabulares con Pandas.
 
 - **Teoría:** Series vs DataFrame, lectura de CSV/Excel, exploración con `head()`, `info()`, `describe()`.
@@ -45,7 +45,7 @@ analista de datos junior.
 - **Recurso:** [Kaggle Learn – "Pandas"](https://www.kaggle.com/learn/pandas) (curso gratis, ~4h)
 - **Entregable:** ✅ Notebook [`02_pandas_intro.ipynb`](./02_pandas_intro.ipynb) subido a GitHub.
 
-### Día 4 — Limpieza de datos con Pandas
+#### Día 4 — Limpieza de datos con Pandas
 **Objetivo:** Dejar un dataset listo para análisis.
 
 - **Teoría:** Valores nulos (`isnull`, `fillna`, `dropna`), duplicados, corrección de tipos de datos.
@@ -54,7 +54,7 @@ analista de datos junior.
 - **Recurso:** [Kaggle Learn – "Data Cleaning"](https://www.kaggle.com/learn/data-cleaning) (curso gratis)
 - **Entregable:** ✅ Notebook [`03_data_cleaning.ipynb`](./03_data_cleaning.ipynb) con dataset limpio exportado a CSV.
 
-#### 📦 Datasets utilizados en 03_data_cleaning.ipynb
+##### 📦 Datasets utilizados en 03_data_cleaning.ipynb
 
 **NFL Play by Play 2009-2016 (v3):**
 1. Descarga desde Kaggle: https://www.kaggle.com/datasets/maxhorowitz/nflplaybyplay2009to2016
@@ -76,7 +76,7 @@ analista de datos junior.
 Se genera automáticamente al ejecutar `03_data_cleaning.ipynb` de principio a fin — 
 no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_clean.csv`.
 
-### Día 5 — Transformación: groupby, pivot, merge
+#### Día 5 — Transformación: groupby, pivot, merge
 **Objetivo:** Combinar y resumir datos como en un caso de negocio real.
 
 - **Teoría:** `groupby()` con agregaciones múltiples, `pivot_table()`.
@@ -85,13 +85,13 @@ no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_cle
 - **Recurso:** [Real Python – "Pandas GroupBy"](https://realpython.com/pandas-groupby/) (artículo gratis)
 - **Entregable:** ✅ Notebook [`04_groupby_merge.ipynb`](./04_groupby_merge.ipynb) con 5 respuestas documentadas.
 
-## 📦 Datasets utilizados en 04_groupby_merge.ipynb
+##### 📦 Datasets utilizados en 04_groupby_merge.ipynb
 
 **Datasets del tutorial "Pandas GroupBy" (Real Python):**
 1. Se descargan directamente desde el artículo: https://realpython.com/pandas-groupby/
 2. Colócalos en `data/data_groupby/`
 
-### Día 6 — Visualización: Matplotlib y Seaborn
+#### Día 6 — Visualización: Matplotlib y Seaborn
 **Objetivo:** Comunicar hallazgos con gráficos claros.
 
 - **Teoría:** Matplotlib: line, bar, histograma, scatter — anatomía de una figura.
@@ -99,37 +99,37 @@ no requiere descarga aparte. El notebook lo guarda en `data/nfl_play_by_play_cle
 - **Recurso:** [Data Visualization with Seaborn - Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-with-python-seaborn/) [Data Visualization using Matplotlib in Python](https://www.geeksforgeeks.org/data-visualization/data-visualization-using-matplotlib/) (artículo gratis)
 - **Entregable:** ✅ Notebook [`05_visualizacion.ipynb`](./05_visualizacion.ipynb) con más de 20 gráficos.
 
-### Dia 7📊 Proyecto 1 — EDA de Ventas Retail
+#### Dia 7📊 Proyecto 1 — EDA de Ventas Retail
 
 Análisis exploratorio de datos (EDA) completo sobre un dataset de ventas de una 
 tienda retail, desarrollado como cierre de la primera semana de mi plan de 
 preparación como analista de datos junior.
 
-#### Objetivo
+##### Objetivo
 
 Responder preguntas de negocio reales a partir de datos de transacciones de venta, 
 aplicando el flujo completo de un análisis exploratorio: limpieza, análisis, 
 visualización y conclusiones accionables.
 
-#### Dataset
+##### Dataset
 
 [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) 
 (Kaggle) — 1000 transacciones con las siguientes columnas: Transaction ID, Date, 
 Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, Total Amount.
 
-#### Preguntas de negocio respondidas
+##### Preguntas de negocio respondidas
 
 1. ¿Existen patrones identificables en las ventas a lo largo de distintos períodos de tiempo?
 2. ¿Qué categorías de producto tienen mayor atractivo entre los clientes?
 3. ¿Cuáles son las relaciones entre edad, gasto y preferencias de producto?
 
-#### Proceso
+##### Proceso
 
 - **Limpieza:** revisión de valores nulos, duplicados y consistencia de columnas categóricas; conversión de la columna de fecha a tipo `datetime`.
 - **Análisis:** agrupaciones por estación/mes, categoría de producto, género y rango de edad, usando `groupby()` y `pivot_table()`.
 - **Visualización:** gráficos de barras, countplots con etiquetas de valor, y heatmap de correlación edad-categoría-gasto.
 
-#### Principales hallazgos
+##### Principales hallazgos
 
 - Las ventas muestran estacionalidad, con invierno como la temporada de mayor gasto promedio.
 - Clothing es la categoría más atractiva en volumen general; Beauty tiene mayor preferencia entre clientas mujeres.
@@ -137,11 +137,11 @@ Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, Total Amou
 
 Conclusiones completas y recomendaciones de negocio disponibles al final del notebook.
 
-#### Herramientas utilizadas
+##### Herramientas utilizadas
 
 Python · Pandas · NumPy · Matplotlib · Seaborn
 
-#### Archivo principal
+##### Archivo principal
 
 [`06_Proyecto_EDA.ipynb`](./06_Proyecto_EDA.ipynb)
 

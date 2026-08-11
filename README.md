@@ -14,7 +14,7 @@ analista de datos junior.
 
 **Por su tamaño, los datasets no están incluidos en este repositorio.**
 
-## Pandas EDA
+## Analisis con Pandas
 
 ### 📅 Progreso diario
 
@@ -145,4 +145,12 @@ Python · Pandas · NumPy · Matplotlib · Seaborn
 
 [`06_Proyecto_EDA.ipynb`](./06_Proyecto_EDA.ipynb)
 
-## SQL
+## Analisis con SQL
+
+### Día 8 — SQL básico: SELECT y filtros
+**Objetivo:** Escribir consultas básicas con confianza.
+
+- **Teoría:** SQLite con Python (`sqlite3` + `jupysql`) en Jupyter Notebook, en vez de instalar PostgreSQL — carga de la base de datos desde mi propio dataset de ventas retail.
+- **Práctica:** `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, operadores lógicos (`LIKE`, `IN`, `BETWEEN`, `IS NULL`, `AND`, `OR`, `NOT`), operadores aritméticos.
+- **Recurso:** [Basic SQL](https://mode.com/sql-tutorial) (gratis, interactivo)
+- **Entregable:** ✅ Notebook [`01_Sql_Basico.ipynb`](./01_Sql_Basico.ipynb) con la teoría y práctica documentada.

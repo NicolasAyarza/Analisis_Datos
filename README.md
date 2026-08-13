@@ -154,3 +154,11 @@ Python · Pandas · NumPy · Matplotlib · Seaborn
 - **Práctica:** `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, operadores lógicos (`LIKE`, `IN`, `BETWEEN`, `IS NULL`, `AND`, `OR`, `NOT`), operadores aritméticos.
 - **Recurso:** [Basic SQL](https://mode.com/sql-tutorial) (gratis, interactivo)
 - **Entregable:** ✅ Notebook [`01_Sql_Basico.ipynb`](./01_Sql_Basico.ipynb) con la teoría y práctica documentada.
+
+### Días 9 y 10 — SQL Intermedio: Agregaciones y JOINs
+**Objetivo:** Resumir datos con funciones de agregación y combinar múltiples tablas relacionadas.
+
+- **Teoría:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`; `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN` con diagramas visuales.
+- **Práctica:** `GROUP BY` y `HAVING` (diferencias con `WHERE`), `CASE`, `DISTINCT`, self join, joins de múltiples tablas (3+), filtrado en `ON` vs `WHERE`, uniones con múltiples claves, `UNION`.
+- **Recurso:** [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) — módulos Aggregate Functions y JOINs (gratis, interactivo)
+- **Entregable:** ✅ Notebook [`02_Sql_Intermedio.ipynb`](./02_Sql_Intermedio.ipynb) con teoría y ejemplos aplicados sobre la base de datos Chinook. La práctica dirigida con preguntas de negocio y ejercicios progresivos queda pendiente para un notebook posterior con una base de datos más grande.

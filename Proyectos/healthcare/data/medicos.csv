@@ -1,0 +1,151 @@
+medico_id,nombre,especialidad_id,fecha_ingreso,tipo_contrato
+1,Dr(a). Margarita Daniela Mansilla Concha,3,2010-08-28,Part-time
+2,Dr(a). Florencia María Espinoza Yáñez,11,2021-03-04,Planta
+3,Dr(a). Gonzalo Joaquín Espinoza Quezada,7,2020-07-30,Planta
+4,Dr(a). Millaray Hilda Jara Sepúlveda,5,2022-03-04,Planta
+5,Dr(a). María Patricia Bastías Cerda,1,2015-10-17,Part-time
+6,Dr(a). Lorena Bobadilla Vera,1,2019-12-16,Planta
+7,Dr(a). Valeria Osses,1,2022-04-24,Honorarios
+8,Dr(a). María Araya Álvarez,9,2024-09-17,Honorarios
+9,Dr(a). Juan Felipe Inostroza Riquelme,5,2017-06-06,Planta
+10,Dr(a). Pedro Byron Pacheco Cornejo,7,2010-07-22,Honorarios
+11,Dr(a). Carlos Vera Carrera,1,2017-07-15,Planta
+12,Dr(a). Irma Garcés Carrillo,11,2018-11-08,Honorarios
+13,Dr(a). Felipe Cristian Castillo Chamorro,9,2023-01-18,Honorarios
+14,Dr(a). Magdalena Paula Lorca Navarro,1,2023-02-11,Honorarios
+15,Dr(a). Gabriel Cristian Acevedo Barahona,1,2016-08-09,Planta
+16,Dr(a). Fabricio Jaime Soto Muñoz,1,2017-11-21,Part-time
+17,Dr(a). Elías Romero Díaz,2,2016-11-08,Planta
+18,Dr(a). Mauricio Villar-Duarte,4,2020-11-02,Planta
+19,Dr(a). Esteban Alvarado Vargas,3,2016-02-25,Planta
+20,Dr(a). Paulina Jessica Villa Verdugo,2,2019-10-28,Honorarios
+21,Dr(a). Jorge Brian Carmona Gómez,5,2012-04-25,Honorarios
+22,Dr(a). Carolina Solís Ortega,1,2017-01-16,Planta
+23,Dr(a). María Andrea González Ávalos,2,2024-07-16,Honorarios
+24,Dr(a). Fernanda Rojas,3,2015-01-29,Planta
+25,Dr(a). María Ruiz,4,2020-05-23,Honorarios
+26,Dr(a). Luciano Silva Aravena,8,2019-10-01,Planta
+27,Dr(a). Abigail Katherine Castillo Ortega,1,2022-10-11,Honorarios
+28,Dr(a). Fernanda Nury Calderón Guzmán,4,2022-10-14,Planta
+29,Dr(a). Daniela Alejandra Quezada Araya,5,2022-11-22,Part-time
+30,Dr(a). César Francisco Lizana Espinosa,1,2015-09-14,Planta
+31,Dr(a). Álvaro Manuel López Piña,5,2014-10-01,Planta
+32,Dr(a). Denisse Michelle Flores Soto,1,2020-10-12,Planta
+33,Dr(a). Fernando Antonio Catalán Solar,1,2021-05-23,Part-time
+34,Dr(a). Miguel Freddy Valenzuela Flores,10,2023-02-01,Part-time
+35,Dr(a). Pedro Víctor Aros Parra,11,2010-07-16,Planta
+36,Dr(a). María Dinamarca Ayala,8,2011-01-10,Honorarios
+37,Dr(a). Nicol Hernández,2,2019-06-21,Part-time
+38,Dr(a). Gloria María Vera Retamales,1,2023-10-25,Honorarios
+39,Dr(a). Ricardo Romero Cubillos,6,2024-12-17,Honorarios
+40,Dr(a). Yolanda Sepúlveda Gómez,3,2021-03-15,Planta
+41,Dr(a). Viviana Ibarra Rojas,1,2016-07-05,Planta
+42,Dr(a). Elvira Carolina Castañeda Pérez,4,2011-06-24,Part-time
+43,Dr(a). Jonathan Reyes Contreras,1,2019-07-05,Part-time
+44,Dr(a). Marisol Valeria Olivares Acevedo,10,2023-02-02,Honorarios
+45,Dr(a). Javiera Pavez,2,2016-08-27,Planta
+46,Dr(a). Fabián Matías Cortés Leal,6,2020-05-30,Planta
+47,Dr(a). Ronaldo Mark Díaz Castillo,2,2023-07-21,Honorarios
+48,Dr(a). Reinaldo Segura,4,2010-09-09,Part-time
+49,Dr(a). Rolando Gustavo Arias Alvear,4,2021-12-11,Part-time
+50,Dr(a). Tania Marcela Ponce Parraguez,1,2014-05-27,Honorarios
+51,Dr(a). Luis Ignacio Sánchez Cerda,11,2015-08-16,Honorarios
+52,Dr(a). Tamara Carmen Ruiz Lizana,7,2012-03-08,Planta
+53,Dr(a). Katherine Margarita González Rebolledo,10,2017-12-20,Planta
+54,Dr(a). Nelly Ximena Gallardo González,10,2018-06-28,Part-time
+55,Dr(a). Israel Navarrete,5,2021-11-21,Honorarios
+56,Dr(a). Carolina Silva Herrera,10,2012-07-20,Planta
+57,Dr(a). Colomba Valderrama Castillo,1,2011-03-09,Planta
+58,Dr(a). Kevin Dylan Orellana Arancibia,1,2023-01-24,Honorarios
+59,Dr(a). Leonel Zavala,1,2019-04-19,Planta
+60,Dr(a). María Mansilla,3,2013-08-12,Planta
+61,Dr(a). Ariel Loyola,3,2023-09-11,Honorarios
+62,Dr(a). Rosario Ana Segovia Cabello,2,2012-02-24,Honorarios
+63,Dr(a). Vicente Tapia,9,2016-12-01,Honorarios
+64,Dr(a). María Carmen Carrasco Loyola,3,2013-10-23,Planta
+65,Dr(a). Lucía Paula Allende Alvarado,2,2013-10-30,Honorarios
+66,Dr(a). Juliana Patricia Valladares Vargas,4,2010-02-21,Planta
+67,Dr(a). Alexis Felipe Salas Valdés,1,2022-01-26,Planta
+68,Dr(a). Cristian Pereira González,8,2023-07-09,Honorarios
+69,Dr(a). Clara Monserrat Cifuentes Riquelme,1,2020-03-01,Honorarios
+70,Dr(a). Benjamín Herrera Bastías,12,2012-05-15,Part-time
+71,Dr(a). Fernanda Pamela Ortiz Gómez,7,2016-08-17,Honorarios
+72,Dr(a). Adán Jonathan Acosta Durán,1,2015-03-09,Honorarios
+73,Dr(a). José Benjamín Garrido Pinto,1,2018-10-25,Planta
+74,Dr(a). Teresa Sofía Godoy Aburto,8,2019-08-02,Planta
+75,Dr(a). María Amanda Ulloa Núñez,7,2016-05-13,Planta
+76,Dr(a). Elsa Araya Fuentes,7,2013-10-02,Planta
+77,Dr(a). Mario Félix Díaz Zúñiga,7,2022-09-06,Part-time
+78,Dr(a). Hilda Nicole Gutiérrez León,1,2012-12-27,Planta
+79,Dr(a). Jean Rodríguez Gallardo,3,2015-10-09,Part-time
+80,Dr(a). Roberto Rojas,1,2017-04-01,Honorarios
+81,Dr(a). Vicente Arévalo,9,2013-07-23,Honorarios
+82,Dr(a). Marisol Ruz-Bahamondes Arias,5,2018-07-31,Honorarios
+83,Dr(a). Carol Sonia Brito Quiroz,3,2018-08-16,Honorarios
+84,Dr(a). Víctor Nelson Gaete Maldonado,1,2024-11-21,Planta
+85,Dr(a). María Cecilia Sánchez Cortés,2,2014-06-06,Planta
+86,Dr(a). Constanza Hilda Neira Díaz,3,2024-09-02,Honorarios
+87,Dr(a). Pablo Manuel Olivares Domínguez,7,2019-11-16,Planta
+88,Dr(a). Noelia Gaete Molina,5,2014-02-12,Planta
+89,Dr(a). Emilio Lorenzo Azócar Olivares,10,2018-06-28,Honorarios
+90,Dr(a). Ángela Sofía Espinoza Alarcón,4,2020-04-15,Planta
+91,Dr(a). Esteban Daniel Hernández Cáceres,1,2021-03-04,Part-time
+92,Dr(a). José Sandoval Poblete,7,2010-09-26,Part-time
+93,Dr(a). Luis Henríquez Rojas,7,2019-02-05,Part-time
+94,Dr(a). Benjamín Luciano Vera Leal,5,2017-06-14,Planta
+95,Dr(a). María Ana Ortega Adasme,7,2023-07-25,Planta
+96,Dr(a). Kevin Lara Cid,4,2014-04-18,Part-time
+97,Dr(a). María Constanza Silva Chávez,4,2021-12-25,Planta
+98,Dr(a). Maritza Matilde Hernández Salas,3,2019-02-09,Part-time
+99,Dr(a). Doris Milena Rodríguez González,1,2015-04-15,Part-time
+100,Dr(a). Abelardo Campos Valdebenito,1,2019-07-21,Part-time
+101,Dr(a). Maximiliano Rodríguez Caro,1,2019-04-25,Planta
+102,Dr(a). Rosa Guevara Santibáñez,5,2020-03-02,Planta
+103,Dr(a). Héctor Jaime Jara Suazo,2,2020-10-24,Part-time
+104,Dr(a). Orfelina Adriana Aguayo Neira,4,2019-11-21,Planta
+105,Dr(a). Nicanor Sánchez Parada,10,2022-07-30,Planta
+106,Dr(a). Paulina Marcia Sánchez Rubilar,2,2019-06-05,Honorarios
+107,Dr(a). Danitza Francisca Cáceres Cornejo,3,2023-07-21,Part-time
+108,Dr(a). Félix Jorge Castillo Berríos,7,2019-09-12,Honorarios
+109,Dr(a). Gustavo Vásquez,2,2014-08-20,Honorarios
+110,Dr(a). Juan Jorquera,1,2016-08-12,Planta
+111,Dr(a). Raquel Pacheco Leiva,2,2018-09-11,Honorarios
+112,Dr(a). Daniela Mercedes Tapia Pinto,1,2020-12-26,Part-time
+113,Dr(a). Pablo Alberto Carrasco Retamal,10,2011-05-09,Planta
+114,Dr(a). Luis Francisco Contreras Alvarado,8,2014-06-05,Honorarios
+115,Dr(a). Sofía Antonella Valencia Quintanilla,5,2021-03-19,Part-time
+116,Dr(a). Ana Sofía Araya Torres,9,2012-08-20,Honorarios
+117,Dr(a). Pedro Gary Paredes Aguirre,8,2011-12-26,Honorarios
+118,Dr(a). Alejandro Segovia,1,2018-02-03,Honorarios
+119,Dr(a). Teresa Patricia Rojas Fredes,10,2024-07-28,Planta
+120,Dr(a). Daniel Díaz,4,2017-12-18,Planta
+121,Dr(a). Carolina Maite Tapia Inzunza,8,2023-09-14,Part-time
+122,Dr(a). Tomás Opazo Araya,10,2022-06-17,Part-time
+123,Dr(a). Teresa Nadia Olea Tapia,2,2013-11-08,Part-time
+124,Dr(a). Nelly Peñaloza Castillo,1,2022-05-16,Part-time
+125,Dr(a). Carlos Torres Díaz,2,2017-03-25,Honorarios
+126,Dr(a). Cristóbal Sebastián Reyes Neira,3,2022-02-05,Honorarios
+127,Dr(a). Berta Estrella Zamora Méndez,8,2021-03-14,Honorarios
+128,Dr(a). Katherine Navarrete,9,2015-01-30,Honorarios
+129,Dr(a). Dominga Díaz,1,2011-09-24,Honorarios
+130,Dr(a). Alberto Marcelo Fernández Silva,4,2024-06-11,Honorarios
+131,Dr(a). Astrid Cárdenas Medina,3,2012-02-11,Part-time
+132,Dr(a). Patricio Felipe Valenzuela Soto,2,2024-07-01,Planta
+133,Dr(a). Susana Medel,1,2022-11-26,Planta
+134,Dr(a). Carmen Muñoz Riveros,3,2020-11-11,Planta
+135,Dr(a). Brandon Torres Toledo,10,2024-09-13,Honorarios
+136,Dr(a). María Isabel Núñez Cifuentes,3,2024-07-05,Planta
+137,Dr(a). Mercedes Juana Saldías Román,4,2022-01-26,Planta
+138,Dr(a). Elizabeth Martina Veloso Orellana,7,2015-06-28,Honorarios
+139,Dr(a). Romina Sanhueza-Zúñiga Flores,3,2021-11-11,Planta
+140,Dr(a). Maximiliano Cisternas Fuentes,11,2010-03-18,Honorarios
+141,Dr(a). Paulina Aguirre,11,2018-01-18,Planta
+142,Dr(a). Tomás Víctor Martínez-Ramos Paredes,2,2016-10-27,Planta
+143,Dr(a). Exequiel Henríquez-Contreras,4,2020-02-04,Part-time
+144,Dr(a). Renata Carla Sánchez Zambrano,2,2020-02-01,Planta
+145,Dr(a). Ximena Mónica Aliaga Salinas,2,2018-10-08,Planta
+146,Dr(a). Margarita Arenas,1,2022-05-04,Honorarios
+147,Dr(a). Oscar Faúndez,5,2024-02-08,Honorarios
+148,Dr(a). Guillermo Lenin Leiva Sepúlveda,4,2011-08-17,Planta
+149,Dr(a). Ximena Viviana Aguilera García,1,2013-07-05,Honorarios
+150,Dr(a). Ignacio Reyes Carrillo,2,2010-05-18,Planta

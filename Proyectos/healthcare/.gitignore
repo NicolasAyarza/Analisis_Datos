@@ -1,0 +1,17 @@
+# Entornos y cachés de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# Credenciales / variables de entorno
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Power BI (archivos temporales de bloqueo)
+~$*.pbix

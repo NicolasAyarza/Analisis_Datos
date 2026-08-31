@@ -1,0 +1,25 @@
+servicio_id,servicio,categoria,precio
+1,Consulta General,Consulta,15000
+2,Consulta Especialidad,Consulta,35000
+3,Control Niño Sano,Consulta,20000
+4,Consulta Preventiva,Consulta,18000
+5,Ecografía Abdominal,Imagenología,45000
+6,Ecografía Obstétrica,Imagenología,50000
+7,Radiografía,Imagenología,25000
+8,Electrocardiograma,Procedimiento,22000
+9,Ecocardiograma,Procedimiento,60000
+10,Test de Esfuerzo,Procedimiento,55000
+11,Kinesiterapia,Terapia,20000
+12,Sesión de Rehabilitación,Terapia,22000
+13,Toma de Muestra Laboratorio,Laboratorio,8000
+14,Perfil Bioquímico,Laboratorio,28000
+15,Hemograma Completo,Laboratorio,12000
+16,Curación,Procedimiento,10000
+17,Vacunación,Procedimiento,9000
+18,Endoscopía,Procedimiento,80000
+19,Consulta Psiquiátrica,Consulta,40000
+20,Consulta Dermatológica,Consulta,32000
+21,Biopsia de Piel,Procedimiento,65000
+22,Audiometría,Procedimiento,18000
+23,Control Prenatal,Consulta,25000
+24,Consulta Oftalmológica,Consulta,30000

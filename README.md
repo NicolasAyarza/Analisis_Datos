@@ -162,3 +162,35 @@ Python · Pandas · NumPy · Matplotlib · Seaborn
 - **Práctica:** `GROUP BY` y `HAVING` (diferencias con `WHERE`), `CASE`, `DISTINCT`, self join, joins de múltiples tablas (3+), filtrado en `ON` vs `WHERE`, uniones con múltiples claves, `UNION`.
 - **Recurso:** [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) — módulos Aggregate Functions y JOINs (gratis, interactivo)
 - **Entregable:** ✅ Notebook [`02_Sql_Intermedio.ipynb`](./02_Sql_Intermedio.ipynb) con teoría y ejemplos aplicados sobre la base de datos Chinook. La práctica dirigida con preguntas de negocio y ejercicios progresivos queda pendiente para un notebook posterior con una base de datos más grande.
+
+Analisis SQL Avanzado y Business Intelligence
+### Días 11–13 — SQL Avanzado (en progreso)
+**Objetivo:** Estructurar consultas complejas y dominar herramientas analíticas avanzadas de SQL.
+
+- **Teoría:** Subconsultas anidadas en `WHERE`, `FROM` y `JOIN`; agregación en múltiples etapas; comparación entre subconsulta y CTE (`WITH`) sobre un mismo problema.
+- **Práctica:** Ejercicios de subconsultas y CTEs aplicados sobre la base de datos Chinook (PostgreSQL).
+- **Recursos:** Mode Analytics SQL Tutorial — módulo Subqueries · SQLTutorial.org — CTEs
+- **Estado:** ⏸️ En pausa. Se cubrió subconsultas y CTEs a nivel introductorio; quedan pendientes funciones de ventana (`ROW_NUMBER`, `RANK`, `LAG`/`LEAD`) y optimización de consultas — se retomará en un notebook futuro.
+
+## Power BI
+
+### Días 14–20 — Power BI Nivel Intermedio
+**Objetivo:** Construir un dashboard de negocio completo, desde el modelado de datos hasta la publicación.
+
+- **Curso:** [Power BI Intermediate: Data Analysis and Modeling](https://app.santanderopenacademy.com) — Santander Open Academy (completado, nivel intermedio).
+  - Diseño de modelo en esquema estrella: tabla de hechos `Ventas` (Quantity, Total Amount, Price per Unit) y dimensiones `Cliente`, `Producto`, `Calendario`.
+  - Definición de claves y relaciones (1:1 y 1:muchos según el caso, validado directamente sobre los datos).
+  - Transformación de datos con Power Query, creación de dimensión `Producto` vía agrupación de categorías.
+  - Medidas DAX básicas (`SUM`, `AVERAGE`, `COUNT`) sobre el modelo relacional.
+- **Estado:** 🔧 En construcción — pendiente incorporar *time intelligence* y finalizar el dashboard de 2 páginas.
+
+## PostgreSQL
+
+### Instalación de PostgreSQL local
+Se instaló PostgreSQL + pgAdmin de forma local para reemplazar SQLite en proyectos futuros, dado que es el motor más solicitado en el mercado laboral (a diferencia de SQLite). Se migró la conexión desde Jupyter usando `sqlalchemy` + `psycopg2`. Próximo paso: sumar Azure SQL Database (capa gratuita) como complemento cloud.
+
+---
+
+## 📊 Proyecto — Healthcare Analytics & Predictive BI
+
+Base de datos sintética de una clínica chilena, con 577.246 registros distribuidos en 7 tablas relacionadas. Generada con Python (Faker + NumPy, semilla fija) — sin datos personales ni médicos reales.

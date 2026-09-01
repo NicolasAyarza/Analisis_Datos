@@ -1,12 +1,11 @@
 -- psql -U postgres -d healthcare_analytics -f database/queries.sql para ejecutar todas las consultas
 
 -- Pregunta 1: ¿Cuántos pacientes atiende la clínica?
-SELECT COUNT(DISTINCT(nombre))
+SELECT COUNT(paciente_id)
 FROM pacientes;
 /*
 Respuesta: 
-El total de pacientes diferentes que atiende la clinica es de 19.847.
-El total con pacientes repetidos es de 20.000.
+El total de pacientes atendidos es de 20.000.
 */
 
 -- pREGUNTA 2: ¿Cuáles son las especialidades con mayor demanda?
@@ -40,7 +39,7 @@ JOIN especialidades es
 JOIN atenciones ate 
     ON ate.cita_id = ci.cita_id
 GROUP BY es.especialidad
-ORDER BY AVG(tiempo_espera) DESC
+ORDER BY AVG(tiempo_espera) DESC;
 /*
 Respuesta:
 El top 3 con mayor tiempo de espera promedio son:
@@ -90,8 +89,7 @@ SELECT
 	COUNT(codigo_cie10)
 FROM diagnosticos
 GROUP BY diagnostico
-ORDER BY COUNT(codigo_cie10) DESC
-limit 5
+ORDER BY COUNT(codigo_cie10) DESC;
 /*
 Respuesta: 
 Los principales diagnosticos son: 
@@ -102,13 +100,18 @@ Los principales diagnosticos son:
 
 -- Pregunta 6: ¿Qué porcentaje de citas termina en inasistencia?
 SELECT 
-	(SUM(
+	TRUNC((SUM(
 		CASE 
-			WHEN estado = 'No asistió' THEN 1
+			WHEN estado = 'No asistió' THEN 1.0
 			Else 0
 		END
-	)/COUNT(*)) * 100.0 -- Algo falla el resultado siempre da 0
-FROM citas
+	)/COUNT(*)) * 100.0)
+FROM citas;
+
+/*
+Respuesta: 
+El porcentaje de inasistencia es de 12%.
+*/
 
 -- Pregunta 7: ¿Qué servicios generan mayores ingresos?
 SELECT 
@@ -129,3 +132,22 @@ Los servicios que generan mayor ingreso son:
     2. Biopsia de Piel con 480.804.100 de pesos
     3. Ecocardiograma con 429.588.000 de pesos
 */
+
+-- Pregunta 8: ¿Cómo evoluciona la demanda mensual?
+SELECT 
+	TO_CHAR(DATE_TRUNC('month', fecha_cita), 'MONTH yyyy') AS Fecha,
+	COUNT(cita_id) AS "Total Mes Actual",
+	LAG(COUNT(cita_id),1,0) 
+		OVER(
+			ORDER BY DATE_TRUNC('month', fecha_cita)
+		) AS "Total Mes Anterior"
+FROM citas
+GROUP BY DATE_TRUNC('month', fecha_cita)
+ORDER BY DATE_TRUNC('month', fecha_cita);
+
+
+-- Pregunta 9: ¿Qué variables influyen en la duracion de una atención?
+
+-- Pregunta 10: ¿Podemos Predecir la inasistencia de un paciente?
+
+-- Pregunta 11: ¿Podemos predecir la duracion o demanda de consultas?
